@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+*{
+    padding: 0p;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Tomorrow",sans-serif;
+    height: 124vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-color: #24252A ;
+
+}
+
+
+
+.menu-bar{  /* menubar tasarımı */ 
+    height: 70px;
+    width: 100%;
+    background-color: rgb(31, 40, 41);
+    background-color: #121214;
+    text-align: center;
+}
+
+.menu-bar ul    
+{  /* sırasız listeleri yan yana getircez*/ 
+  
+
+    display: inline-flex;
+ 
+  list-style: none;
+}
+
+.menu-bar ul li {  /* menubarın altında ul nın altında listlerin tasarımı */    
+ width: 150px;
+ margin: 15px;
+ padding: 10px;  /* menulerın tepeyle arasındaki mesafe*/
+
+}
+
+.menu-bar ul li a {
+    font-size: 20px;
+     text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.menu-bar li a:hover {
+    color: #0088a9;
+
+}
+
+.fc {   /* blurlu olan container*/ 
+
+    
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 600px;
+
+    filter: blur(3px);   
+    list-style: none;
+    width: 0px;
+    /*margin: 50px;*/
+    text-align: center;
+    border-radius: 10px;
+
+}
+.ac {
+    
+    cursor: pointer;
+    margin-left: 150px;
+    border-color: turquoise;
+    border-style: outset;
+    border-radius: 10px;
+    /*margin: 50px;   /* Aktif olan container ac valhala*/ 
+}
+
+
+h1 {    /* YAZILARI DUZENLEME*/ 
+    margin-top: 200px;
+    margin-left: 300px;
+    color: white;
+    text-align: left;
+  }
+  h2 {
+    margin-top: 0px;
+    margin-left: 200px;
+    color: rgb(255, 0, 0);
+    text-align: left;
+  }
+  pre {  
+       /* Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.*/
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+    text-align: auto;
+      color: white;
+    overflow-x: auto;
+ }
+
+ p{
+    margin-top: 0px;
+    margin-left: 200px;
+    color: rgb(0, 255, 179);
+    text-align: left;
+ }
+ 
+ p1 {
+     cursor: pointer;  /* clicks to buy */ 
+    margin-top: 0px;
+    margin-left: 200px;
+    color: rgb(255, 81, 0);
+    text-align: left;
+ }
+button {
+margin-right: 0px;
+
+    border-radius: 10px;
+    background-color: rgb(97, 97, 97);
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+  }  
+  
+  .input-group{
+      margin-top: 25px;
+   
+    color: white;
+
+  }
+  .form-label{
+      margin-left: 10px;
+      cursor: pointer   ;
+  }
+
+  
+
+.logo { 
+margin-right: 0px;
+    cursor: pointer;
+      display: inline-flex;
+      padding: 00px 00px;
+
+
+  }
+  .cta{
+      margin-right: 50px;
+  }
+ 
